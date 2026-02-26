@@ -3,49 +3,49 @@ const mockScans = [
     {
         id: 1,
         datetime: new Date(Date.now() - 2 * 60 * 60 * 1000), // 2 hours ago
-        uniqueUPCs: 47,
+        uniqueUPCs: 182,
         scanSource: 'Shopper #28451',
         category: 'Beverages'
     },
     {
         id: 2,
         datetime: new Date(Date.now() - 5 * 60 * 60 * 1000), // 5 hours ago
-        uniqueUPCs: 32,
+        uniqueUPCs: 163,
         scanSource: 'Shopper #19203',
         category: 'Snacks'
     },
     {
         id: 3,
         datetime: new Date(Date.now() - 8 * 60 * 60 * 1000), // 8 hours ago
-        uniqueUPCs: 56,
+        uniqueUPCs: 187,
         scanSource: 'Shopper #28451',
-        category: 'Condiments & Sauces'
+        category: 'Pickles, Olives & Condiments'
     },
     {
         id: 4,
         datetime: new Date(Date.now() - 18 * 60 * 60 * 1000), // 18 hours ago
-        uniqueUPCs: 41,
+        uniqueUPCs: 171,
         scanSource: 'Shopper #34782',
         category: 'Dairy'
     },
     {
         id: 5,
         datetime: new Date(Date.now() - 24 * 60 * 60 * 1000), // 1 day ago
-        uniqueUPCs: 38,
+        uniqueUPCs: 176,
         scanSource: 'Shopper #19203',
         category: 'Frozen Foods'
     },
     {
         id: 6,
         datetime: new Date(Date.now() - 30 * 60 * 60 * 1000), // 1.25 days ago
-        uniqueUPCs: 52,
+        uniqueUPCs: 168,
         scanSource: 'Shopper #28451',
-        category: 'Cereals'
+        category: 'Cereals & Breakfast'
     },
     {
         id: 7,
         datetime: new Date(Date.now() - 40 * 60 * 60 * 1000), // 1.67 days ago
-        uniqueUPCs: 29,
+        uniqueUPCs: 158,
         scanSource: 'Shopper #41209',
         category: 'Baking'
     }
